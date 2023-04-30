@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Guess The Celebrity</string>
-    <string name="image_view_celebrity_picture_description">Celebrity picture</string>
+    <string name="image_view_celebrity_image_description">Picture of celebrity</string>
 </resources>

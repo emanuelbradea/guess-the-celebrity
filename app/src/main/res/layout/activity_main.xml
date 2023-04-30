@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/image_view_celebrity_picture"
+        android:id="@+id/image_view_celebrity_image"
         android:layout_width="350dp"
         android:layout_height="350dp"
         android:layout_marginTop="25dp"
-        android:contentDescription="@string/image_view_celebrity_picture_description"
+        android:contentDescription="@string/image_view_celebrity_image_description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -19,19 +19,21 @@
 
     <Button
         android:id="@+id/button_answer1"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:onClick="answerClicked"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/image_view_celebrity_picture"
+        app:layout_constraintTop_toBottomOf="@id/image_view_celebrity_image"
         tools:text="Johnny Depp" />
 
     <Button
         android:id="@+id/button_answer2"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:onClick="answerClicked"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_answer1"
@@ -39,9 +41,10 @@
 
     <Button
         android:id="@+id/button_answer3"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:onClick="answerClicked"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_answer2"
@@ -49,9 +52,10 @@
 
     <Button
         android:id="@+id/button_answer4"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:onClick="answerClicked"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_answer3"
