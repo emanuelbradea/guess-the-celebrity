@@ -1,4 +1,4 @@
-# GuessTheCelebrity
+# Guess The Celebrity
 
 A simple guess the celebrity game which uses IMDB's 100 most popular celebrities list as a database
 
